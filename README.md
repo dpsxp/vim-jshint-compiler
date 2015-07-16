@@ -4,6 +4,14 @@ A simple compiler to run `jshint` with `:make` command
 Its best suited when used with [dispatch], with this
 you can run the jshint as a background job and keep your editor not blocked.
 
+## Instalation
+With [Vundle] just copy and paste into your `.vimrc`  
+```
+  Plugin 'dpsxp/vim-jshint-compiler
+```
+
+If don't use [Vundle] just search in your plugin manager how to add a new plugin
+
 ## Usage
 Just run `:make jshint %` or `:make jshint` with any jshint args  
 
@@ -31,3 +39,4 @@ After install [dispatch] you can run `:Dispatch jshint` with normal `jshint` arg
 ![WTFPL](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-1.png)
 
 [dispatch]: https://github.com/tpope/vim-dispatch
+[vundle]: https://github.com/VundleVim/Vundle.vim
