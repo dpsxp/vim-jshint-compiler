@@ -1,8 +1,16 @@
 # Vim jshint compiler
-TODO: write some description
+A simple compiler to run `jshint` with `:make` command  
+
+Its best suited when used with [dispatch], with this
+you can run the jshint as a background job and keep your editor not blocked.
 
 ## Usage
-TODO: add some usage help
+Just run `:make jshint %` or `:make jshint` with any jshint args  
+
+
+## With [dispatch.vim][dispatch]
+
+After install [dispatch] you can run `:Dispatch jshint` with normal `jshint` args and see the magic
 
 ## License
 
@@ -21,3 +29,5 @@ TODO: add some usage help
   0. You just DO WHAT THE FUCK YOU WANT TO.
 
 ![WTFPL](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-1.png)
+
+[dispatch]: https://github.com/tpope/vim-dispatch
